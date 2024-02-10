@@ -9,8 +9,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Optional;
-
 @RestController
 @RequiredArgsConstructor
 public class CharacterController implements CharacterAdapter {
@@ -18,7 +16,9 @@ public class CharacterController implements CharacterAdapter {
 
     @Override
     public ResponseEntity<Page<Character>> findAll(Pageable pageable) {
-        var all = Optional.ofNullable(characterService.findAll(pageable));
-        return ResponseEntity.of(all);
+        final var page = characterService.findAll(pageable);
+        return page.isEmpty() ? ResponseEntity.noContent().build() :
+                ResponseEntity.ok(page);
+
     }
 }
