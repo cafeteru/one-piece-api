@@ -4,6 +4,13 @@
 
 This is a simple API that provides information about the One Piece.
 
-## OpenAPI Specification
+## How to use (OpenAPI)
 
-[Swagger](http://localhost:8000/swagger/index.html)
+To run the application, execute the following command:
+
+```dtd
+mvn spring-boot:run
+```
+
+And access the following URL in your browser:
+- [http://localhost:8080](http://localhost:8080)
