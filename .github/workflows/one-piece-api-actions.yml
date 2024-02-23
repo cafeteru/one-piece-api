@@ -1,4 +1,4 @@
-name: Spring Boot CI
+name: one-piece-api Actions
 run-name: ${{ github.actor }} is checking the one-piece-api
 on: [push]
 jobs:
@@ -12,6 +12,6 @@ jobs:
           java-version: '21'
           distribution: 'adopt'
       - name: Change to specific directory
-        run: cd one-piece-api
+        run: cd one-piece-api/
       - name: Build with Maven
         run: mvn clean install
