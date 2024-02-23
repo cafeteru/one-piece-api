@@ -1,16 +1,25 @@
-# one-piece-api
+# one-piece-lab
 
-## Description
+## Kafka instructions
 
-This is a simple API that provides information about the One Piece.
+### Start Zookeeper and Kafka
 
-## How to use (OpenAPI)
-
-To run the application, execute the following command:
+We use the `docker-compose` to start the Zookeeper and Kafka.
+To do this, execute the following command:
 
 ```dtd
-mvn spring-boot:run
+docker-compose up -d
 ```
 
-And access the following URL in your browser:
-- [http://localhost:8080](http://localhost:8080)
+Check if the containers are running:
+
+```dtd
+docker ps
+```
+
+Check if both services are running:
+
+```dtd
+nc -zv localhost 29092 # Kafka's broker port
+nc -zv localhost 2181 # Zookeeper's client port
+```
