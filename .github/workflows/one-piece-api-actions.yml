@@ -1,5 +1,5 @@
 name: Spring Boot CI
-run-name: ${{ github.actor }} is checking the project
+run-name: ${{ github.actor }} is checking the one-piece-api
 on: [push]
 jobs:
   build:
