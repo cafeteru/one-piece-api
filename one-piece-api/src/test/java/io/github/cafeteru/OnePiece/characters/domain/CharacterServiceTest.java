@@ -37,7 +37,7 @@ public class CharacterServiceTest {
     }
 
     @Test
-    void findAll_with_successfully_response() {
+    void when_findAll_get_a_pageable_then_return_characters() {
         var page = new PageImpl<>(characters);
         var pageable = PageRequest.of(1, 10);
         when(repository.findAll(pageable)).thenReturn(page);

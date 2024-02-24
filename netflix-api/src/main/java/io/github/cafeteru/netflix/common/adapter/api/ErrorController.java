@@ -14,6 +14,6 @@ public class ErrorController {
         var errorDto = ErrorDto.builder()
                 .message(exception.getMessage())
                 .build();
-        return new ResponseEntity<>(errorDto, HttpStatus.BAD_REQUEST);
+        return ResponseEntity.badRequest().body(errorDto);
     }
 }

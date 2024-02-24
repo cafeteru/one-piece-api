@@ -1,7 +1,7 @@
-package io.github.cafeteru.netflix.chapter.adapter.api.mapper;
+package io.github.cafeteru.netflix.chapters.adapter.api.mapper;
 
-import io.github.cafeteru.netflix.chapter.adapter.api.dto.ChapterDto;
-import io.github.cafeteru.netflix.chapter.adapter.db.model.Chapter;
+import io.github.cafeteru.netflix.chapters.adapter.api.dto.ChapterDto;
+import io.github.cafeteru.netflix.chapters.adapter.db.model.Chapter;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingConstants;
 import org.mapstruct.ReportingPolicy;

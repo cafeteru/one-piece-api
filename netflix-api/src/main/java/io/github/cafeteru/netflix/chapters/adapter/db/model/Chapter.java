@@ -1,4 +1,4 @@
-package io.github.cafeteru.netflix.chapter.adapter.db.model;
+package io.github.cafeteru.netflix.chapters.adapter.db.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

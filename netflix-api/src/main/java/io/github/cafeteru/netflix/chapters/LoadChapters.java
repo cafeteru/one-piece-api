@@ -1,7 +1,7 @@
-package io.github.cafeteru.netflix.chapter;
+package io.github.cafeteru.netflix.chapters;
 
-import io.github.cafeteru.netflix.chapter.adapter.db.ChapterRepository;
-import io.github.cafeteru.netflix.chapter.adapter.db.model.Chapter;
+import io.github.cafeteru.netflix.chapters.adapter.db.ChapterRepository;
+import io.github.cafeteru.netflix.chapters.adapter.db.model.Chapter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;

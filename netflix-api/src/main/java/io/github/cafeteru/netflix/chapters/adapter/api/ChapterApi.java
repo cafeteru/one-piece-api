@@ -1,6 +1,6 @@
-package io.github.cafeteru.netflix.chapter.adapter.api;
+package io.github.cafeteru.netflix.chapters.adapter.api;
 
-import io.github.cafeteru.netflix.chapter.adapter.api.dto.ChapterDto;
+import io.github.cafeteru.netflix.chapters.adapter.api.dto.ChapterDto;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;

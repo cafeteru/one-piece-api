@@ -1,8 +1,8 @@
-package io.github.cafeteru.netflix.chapter.adapter.api.impl;
+package io.github.cafeteru.netflix.chapters.adapter.api.impl;
 
-import io.github.cafeteru.netflix.chapter.adapter.api.ChapterApi;
-import io.github.cafeteru.netflix.chapter.adapter.api.dto.ChapterDto;
-import io.github.cafeteru.netflix.chapter.domain.ChapterService;
+import io.github.cafeteru.netflix.chapters.adapter.api.ChapterApi;
+import io.github.cafeteru.netflix.chapters.adapter.api.dto.ChapterDto;
+import io.github.cafeteru.netflix.chapters.domain.ChapterService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
