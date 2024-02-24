@@ -19,7 +19,7 @@ public class Chapter {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
-    private Integer number;
     private String description;
+    private Integer number;
     private Integer duration;
 }
